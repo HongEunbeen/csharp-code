@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace CSharpStudy
 {
@@ -6,26 +7,22 @@ namespace CSharpStudy
     {
         static void Main(string[] args)
         {
-            var num = 1;
-
-            while (true)
+            for(var i = 0; i <= 10; i++)
             {
-                num++;
+                Console.WriteLine(i);
+            }
 
-                if (num % 2 == 0)
-                {
-                    continue;
-                }
+            List<int> numberList = new List<int>();
 
-                if (num % 3 == 0)
-                {
-                    Console.WriteLine(num);
-                }
+            numberList.Add(1);
+            numberList.Add(2);
+            numberList.Add(3);
+            numberList.Add(4);
+            numberList.Add(5);
 
-                if(num == 100)
-                {
-                    break;
-                }
+            foreach (var num in numberList)
+            {
+                Console.WriteLine(num);
             }
         }
         void study02()
@@ -84,6 +81,30 @@ namespace CSharpStudy
             else if (num != int.Parse(input))
             {
                 Console.WriteLine("다른 값을 입력했습니다!");
+            }
+        }
+        void study04()
+        {
+            var num = 1;
+
+            while (true)
+            {
+                num++;
+
+                if (num % 2 == 0)
+                {
+                    continue;
+                }
+
+                if (num % 3 == 0)
+                {
+                    Console.WriteLine(num);
+                }
+
+                if (num == 100)
+                {
+                    break;
+                }
             }
         }
     }
