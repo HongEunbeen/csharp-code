@@ -6,6 +6,23 @@ namespace CSharpStudy
     {
         static void Main(string[] args)
         {
+            var num = 1;
+
+            Console.WriteLine("0 ~ 9 사이의 값을 입력 : ");
+
+            var input = Console.ReadLine();
+
+            if (num == int.Parse(input))
+            {
+                Console.WriteLine("같은 값을 입력했습니다!");
+            }
+            else
+            {
+                Console.WriteLine("다른 값을 입력했습니다!");
+            }
+        }
+        void study02()
+        {
             short shotNum = 0;
 
             int intNum = 0;
