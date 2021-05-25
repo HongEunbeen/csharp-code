@@ -8,17 +8,24 @@ namespace CSharpStudy
         {
             var num = 1;
 
-            Console.WriteLine("0 ~ 9 사이의 값을 입력 : ");
-
-            var input = Console.ReadLine();
-
-            if (num == int.Parse(input))
+            while (true)
             {
-                Console.WriteLine("같은 값을 입력했습니다!");
-            }
-            else
-            {
-                Console.WriteLine("다른 값을 입력했습니다!");
+                num++;
+
+                if (num % 2 == 0)
+                {
+                    continue;
+                }
+
+                if (num % 3 == 0)
+                {
+                    Console.WriteLine(num);
+                }
+
+                if(num == 100)
+                {
+                    break;
+                }
             }
         }
         void study02()
@@ -52,6 +59,32 @@ namespace CSharpStudy
             var num2 = 2;
 
             Console.WriteLine(num1 + num2);
+        }
+        void study03()
+        {
+            var num = 1;
+
+            Console.WriteLine("0 ~ 9 사이의 값을 입력 : ");
+
+            var input = Console.ReadLine();
+
+            if (num == int.Parse(input))
+            {
+                Console.WriteLine("같은 값을 입력했습니다!");
+            }
+            else
+            {
+                Console.WriteLine("다른 값을 입력했습니다!");
+            }
+
+            if (num == int.Parse(input))
+            {
+                Console.WriteLine("같은 값을 입력했습니다!");
+            }
+            else if (num != int.Parse(input))
+            {
+                Console.WriteLine("다른 값을 입력했습니다!");
+            }
         }
     }
 }
