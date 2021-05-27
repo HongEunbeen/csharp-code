@@ -111,7 +111,8 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.UserSecrets.dll": {}
         },
         "build": {
-          "build/netstandard2.0/_._": {}
+          "build/netstandard2.0/Microsoft.Extensions.Configuration.UserSecrets.props": {},
+          "build/netstandard2.0/Microsoft.Extensions.Configuration.UserSecrets.targets": {}
         }
       },
       "Microsoft.Extensions.DependencyInjection/5.0.0": {
@@ -445,19 +446,6 @@
             "assetType": "runtime",
             "rid": "win"
           }
-        }
-      },
-      "FirstLibrary/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "Microsoft.Extensions.Hosting": "5.0.0"
-        },
-        "compile": {
-          "bin/placeholder/FirstLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/FirstLibrary.dll": {}
         }
       }
     }
@@ -1174,16 +1162,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "FirstLibrary/1.0.0": {
-      "type": "project",
-      "path": "../FirstLibrary/FirstLibrary.csproj",
-      "msbuildProject": "../FirstLibrary/FirstLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "FirstLibrary >= 1.0.0"
+      "Microsoft.Extensions.Hosting >= 5.0.0"
     ]
   },
   "packageFolders": {
@@ -1192,11 +1175,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hong-eunbin/Documents/GitHub/csharp-cod/CSharpStudy/CSharpStudy/CSharpStudy.csproj",
-      "projectName": "CSharpStudy",
-      "projectPath": "/Users/hong-eunbin/Documents/GitHub/csharp-cod/CSharpStudy/CSharpStudy/CSharpStudy.csproj",
+      "projectUniqueName": "/Users/hong-eunbin/Documents/GitHub/csharp-cod/CSharpStudy/FirstLibrary/FirstLibrary.csproj",
+      "projectName": "FirstLibrary",
+      "projectPath": "/Users/hong-eunbin/Documents/GitHub/csharp-cod/CSharpStudy/FirstLibrary/FirstLibrary.csproj",
       "packagesPath": "/Users/hong-eunbin/.nuget/packages/",
-      "outputPath": "/Users/hong-eunbin/Documents/GitHub/csharp-cod/CSharpStudy/CSharpStudy/obj/",
+      "outputPath": "/Users/hong-eunbin/Documents/GitHub/csharp-cod/CSharpStudy/FirstLibrary/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/hong-eunbin/.config/NuGet/NuGet.Config"
@@ -1210,11 +1193,7 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {
-            "/Users/hong-eunbin/Documents/GitHub/csharp-cod/CSharpStudy/FirstLibrary/FirstLibrary.csproj": {
-              "projectPath": "/Users/hong-eunbin/Documents/GitHub/csharp-cod/CSharpStudy/FirstLibrary/FirstLibrary.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -1226,6 +1205,12 @@
     "frameworks": {
       "net5.0": {
         "targetAlias": "net5.0",
+        "dependencies": {
+          "Microsoft.Extensions.Hosting": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

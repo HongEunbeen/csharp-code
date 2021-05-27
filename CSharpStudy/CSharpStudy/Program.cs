@@ -1,11 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
+using FirstLibrary;
 
 namespace CSharpStudy
 {
     class Program
     {
         static void Main(string[] args)
+        {
+            Calc calc = new Calc();
+            calc.PrintHello();
+            Console.WriteLine(calc.Plus(10, 20));
+
+            FirstClass first = new FirstClass();
+            first.FirstClassPrint();
+        }
+        void study06()
         {
             // 1 2 3 4 5 6 7 8 9 10
             //List<int> list = new List<int>();
@@ -38,15 +48,17 @@ namespace CSharpStudy
             //}
 
             var list = new List<User>() {
-                new User(){
-                    No = 1,
+                new User()
+        {
+            No = 1,
                     Name = "임똘똘"
                 },
-                new User(){
-                    No = 2,
+                new User()
+        {
+            No = 2,
                     Name = "권똘똘"
                 }
-            };
+    };
 
             foreach(var user in list)
             {

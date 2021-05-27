@@ -1,15 +1,18 @@
 ﻿<Properties StartupConfiguration="{3FB3020E-3C81-4C9D-9243-82B13D78F79D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CSharpStudy/User.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="FirstLibrary/FirstClass.cs">
     <Files>
-      <File FileName="CSharpStudy/Program.cs" Line="29" Column="25" />
-      <File FileName="CSharpStudy/User.cs" Line="8" Column="1" />
+      <File FileName="CSharpStudy/Program.cs" Line="11" Column="31" />
+      <File FileName="CSharpStudy/User.cs" Line="13" Column="37" />
+      <File FileName="CSharpStudy/Calc.cs" Line="18" Column="26" />
+      <File FileName="FirstLibrary/FirstClass.cs" Line="8" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CSharpStudy" expanded="True">
-            <Node name="CSharpStudy" expanded="True">
-              <Node name="User.cs" selected="True" />
+            <Node name="CSharpStudy" expanded="True" />
+            <Node name="FirstLibrary" expanded="True">
+              <Node name="FirstClass.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -19,6 +22,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.FirstLibrary FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.CSharpStudy PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
