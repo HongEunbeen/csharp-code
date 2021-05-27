@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/hong-eunbin/Documents/GitHub/csharp-cod/AspnetCoreStudy/AspnetCoreStudy/AspnetCoreStudy.csproj": {}
+  },
+  "projects": {
+    "/Users/hong-eunbin/Documents/GitHub/csharp-cod/AspnetCoreStudy/AspnetCoreStudy/AspnetCoreStudy.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hong-eunbin/Documents/GitHub/csharp-cod/AspnetCoreStudy/AspnetCoreStudy/AspnetCoreStudy.csproj",
+        "projectName": "AspnetCoreStudy",
+        "projectPath": "/Users/hong-eunbin/Documents/GitHub/csharp-cod/AspnetCoreStudy/AspnetCoreStudy/AspnetCoreStudy.csproj",
+        "packagesPath": "/Users/hong-eunbin/.nuget/packages/",
+        "outputPath": "/Users/hong-eunbin/Documents/GitHub/csharp-cod/AspnetCoreStudy/AspnetCoreStudy/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hong-eunbin/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
