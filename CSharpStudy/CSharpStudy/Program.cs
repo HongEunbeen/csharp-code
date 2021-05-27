@@ -7,23 +7,7 @@ namespace CSharpStudy
     {
         static void Main(string[] args)
         {
-            for(var i = 0; i <= 10; i++)
-            {
-                Console.WriteLine(i);
-            }
-
-            List<int> numberList = new List<int>();
-
-            numberList.Add(1);
-            numberList.Add(2);
-            numberList.Add(3);
-            numberList.Add(4);
-            numberList.Add(5);
-
-            foreach (var num in numberList)
-            {
-                Console.WriteLine(num);
-            }
+            
         }
         void study02()
         {
@@ -105,6 +89,26 @@ namespace CSharpStudy
                 {
                     break;
                 }
+            }
+        }
+        void study05()
+        {
+            for (var i = 0; i <= 10; i++)
+            {
+                Console.WriteLine(i);
+            }
+
+            List<int> numberList = new List<int>();
+
+            numberList.Add(1);
+            numberList.Add(2);
+            numberList.Add(3);
+            numberList.Add(4);
+            numberList.Add(5);
+
+            foreach (var num in numberList)
+            {
+                Console.WriteLine(num);
             }
         }
     }
