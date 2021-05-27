@@ -1,14 +1,15 @@
 ﻿<Properties StartupConfiguration="{3FB3020E-3C81-4C9D-9243-82B13D78F79D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CSharpStudy/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CSharpStudy/User.cs">
     <Files>
-      <File FileName="CSharpStudy/Program.cs" Line="9" Column="36" />
+      <File FileName="CSharpStudy/Program.cs" Line="29" Column="25" />
+      <File FileName="CSharpStudy/User.cs" Line="8" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="CSharpStudy" expanded="True">
             <Node name="CSharpStudy" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="User.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -19,7 +20,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.CSharpStudy FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.CSharpStudy PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
