@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{3FB3020E-3C81-4C9D-9243-82B13D78F79D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CSharpStudy/Program.cs">
+    <Files>
+      <File FileName="CSharpStudy/Program.cs" Line="14" Column="1" />
+      <File FileName="CSharpStudy/User.cs" Line="13" Column="37" />
+      <File FileName="CSharpStudy/Calc.cs" Line="18" Column="26" />
+      <File FileName="FirstLibrary/FirstClass.cs" Line="11" Column="56" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CSharpStudy" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>FirstLibrary/FirstLibrary.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.CSharpStudy PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
