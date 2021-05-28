@@ -23,7 +23,12 @@ namespace AspnetCoreStudy.Controllers
             var hongUser = new User() { UserNo = 1, UserName = "홍길동" };
 
 
-            return View(hongUser);
+            //return View(hongUser);
+            //ViewBag.User = hongUser;
+            ViewData["UserNo"] = hongUser.UserNo;
+            ViewData["UserName"] = hongUser.UserName;
+
+            return View();
         }
 
 
