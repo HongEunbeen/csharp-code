@@ -1,27 +1,26 @@
 ﻿<Properties StartupConfiguration="{09083684-5372-429B-AE9E-2D19D47D5191}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AspnetCoreStudy/Views/Study/index (복사본).cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AspnetCoreStudy/Controllers/StudyController.cs">
     <Files>
       <File FileName="AspnetCoreStudy/Controllers/HomeController.cs" Line="13" Column="6" />
-      <File FileName="AspnetCoreStudy/Views/Home/Index.cshtml" Line="9" Column="1" />
-      <File FileName="AspnetCoreStudy/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
-      <File FileName="AspnetCoreStudy/Program.cs" Line="20" Column="44" />
-      <File FileName="AspnetCoreStudy/appsettings.json" Line="11" Column="1" />
-      <File FileName="AspnetCoreStudy/Startup.cs" Line="1" Column="1" />
-      <File FileName="AspnetCoreStudy/Controllers/StudyController.cs" Line="25" Column="1" />
-      <File FileName="AspnetCoreStudy/Views/Study/index.cshtml" Line="7" Column="1" />
-      <File FileName="AspnetCoreStudy/Views/Study/Java.cshtml" Line="7" Column="27" />
-      <File FileName="AspnetCoreStudy/Views/Study/index (복사본).cshtml" Line="7" Column="25" />
+      <File FileName="AspnetCoreStudy/Views/Home/Index.cshtml" />
+      <File FileName="AspnetCoreStudy/Views/Shared/_Layout.cshtml" />
+      <File FileName="AspnetCoreStudy/Program.cs" />
+      <File FileName="AspnetCoreStudy/appsettings.json" />
+      <File FileName="AspnetCoreStudy/Startup.cs" />
+      <File FileName="AspnetCoreStudy/Controllers/StudyController.cs" Line="18" Column="1" />
+      <File FileName="AspnetCoreStudy/Views/Study/index.cshtml" />
+      <File FileName="AspnetCoreStudy/Views/Study/Java.cshtml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AspnetCoreStudy" expanded="True">
             <Node name="AspnetCoreStudy" expanded="True">
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="StudyController.cs" selected="True" />
+              </Node>
               <Node name="Views" expanded="True">
-                <Node name="Study" expanded="True">
-                  <Node name="index (복사본).cshtml" selected="True" />
-                </Node>
+                <Node name="Study" expanded="True" />
               </Node>
             </Node>
           </Node>
