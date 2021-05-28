@@ -20,13 +20,12 @@ namespace AspnetCoreStudy.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var hongUser = new User() { UserNo = 1, UserName = "홍길동" };
+
+
+            return View(hongUser);
         }
 
-        public IActionResult Privacy()
-        {
-            return View();
-        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
