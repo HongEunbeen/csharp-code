@@ -533,11 +533,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/hong-eunbin/Projects/AspNetNote/AspNetNote/AspNetNote.csproj",
+      "projectUniqueName": "/Users/hong-eunbin/Documents/GitHub/csharp-cod/AspNetNote/AspNetNote/AspNetNote.csproj",
       "projectName": "AspNetNote",
-      "projectPath": "/Users/hong-eunbin/Projects/AspNetNote/AspNetNote/AspNetNote.csproj",
+      "projectPath": "/Users/hong-eunbin/Documents/GitHub/csharp-cod/AspNetNote/AspNetNote/AspNetNote.csproj",
       "packagesPath": "/Users/hong-eunbin/.nuget/packages/",
-      "outputPath": "/Users/hong-eunbin/Projects/AspNetNote/AspNetNote/obj/",
+      "outputPath": "/Users/hong-eunbin/Documents/GitHub/csharp-cod/AspNetNote/AspNetNote/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/hong-eunbin/.config/NuGet/NuGet.Config"

@@ -1,29 +1,29 @@
 ﻿<Properties StartupConfiguration="{4D4B7E8F-EBC4-42DD-B13D-4F67E7B1AB39}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AspNetNote/Models/User.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AspNetNote/ViewModel/LoginViewModel.cs">
     <Files>
       <File FileName="AspNetNote/DataContext/AspNetNoteDbContext.cs" Line="20" Column="10" IsPinned="True" />
-      <File FileName="AspNetNote/Views/Account/Login.cshtml" Line="1" Column="13" IsPinned="True" />
+      <File FileName="AspNetNote/Views/Account/Login.cshtml" Line="18" Column="8" IsPinned="True" />
       <File FileName="AspNetNote/Models/User.cs" Line="33" Column="49" />
-      <File FileName="AspNetNote/Models/Note.cs" Line="34" Column="19" />
-      <File FileName="AspNetNote/Models/ErrorViewModel.cs" Line="1" Column="1" />
-      <File FileName="AspNetNote/Controllers/AccountController.cs" Line="55" Column="7" />
-      <File FileName="AspNetNote/Views/Account/Register.cshtml" Line="16" Column="30" />
-      <File FileName="AspNetNote/Views/Shared/_Layout.cshtml" Line="31" Column="116" />
+      <File FileName="AspNetNote/Models/Note.cs" />
+      <File FileName="AspNetNote/Models/ErrorViewModel.cs" />
+      <File FileName="AspNetNote/Controllers/AccountController.cs" Line="60" Column="18" />
+      <File FileName="AspNetNote/Views/Account/Register.cshtml" Line="1" Column="1" />
+      <File FileName="AspNetNote/Views/Shared/_Layout.cshtml" />
       <File FileName="AspNetNote/Program.cs" Line="12" Column="15" />
+      <File FileName="AspNetNote/Controllers/HomeController.cs" Line="39" Column="27" />
+      <File FileName="AspNetNote/Views/Home/LoginSuccess.cshtml" Line="6" Column="12" />
+      <File FileName="AspNetNote/ViewModel/LoginViewModel.cs" Line="11" Column="32" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="AspNetNote" expanded="True">
             <Node name="AspNetNote" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="DataContext" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="User.cs" selected="True" />
+              <Node name="ViewModel" expanded="True">
+                <Node name="LoginViewModel.cs" selected="True" />
               </Node>
               <Node name="Views" expanded="True">
                 <Node name="Account" expanded="True" />
-                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>

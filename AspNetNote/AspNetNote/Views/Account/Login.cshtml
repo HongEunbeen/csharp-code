@@ -1,1 +1,19 @@
-﻿<h2>로그인</h2>
+﻿@model AspNetNote.ViewModel.LoginViewModel
+<h2>로그인</h2>
+
+<form class="form-horizontal" method="post" asp-controller="Account" asp-action="Login">
+    <div class="text-danger" asp-validation-summary="ModelOnly" ></div>
+    <div class="form-group">
+        <label>사용자 ID</label>
+        <input type="text" asp-for="UserId" placeholder="사용자 ID 입력" class="form-control"/>
+        <span class="text-dnager" asp-validation-for="UserId"></span>
+    </div>
+    <div class="form-group">
+        <label>사용자 PASSWORD</label>
+        <input type="text" asp-for="UserPassword" placeholder="사용자 비밀번호 입력" class="form-control" />
+        <span class="text-dnager" asp-validation-for="UserPassword"></span>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-success">로그인</button>
+    </div>
+</form>
