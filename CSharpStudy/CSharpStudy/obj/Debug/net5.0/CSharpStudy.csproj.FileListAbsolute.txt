@@ -1,0 +1,15 @@
+/Users/hong-eunbin/Documents/GitHub/csharp-cod/CSharpStudy/CSharpStudy/bin/Debug/net5.0/CSharpStudy.deps.json
+/Users/hong-eunbin/Documents/GitHub/csharp-cod/CSharpStudy/CSharpStudy/bin/Debug/net5.0/CSharpStudy.runtimeconfig.json
+/Users/hong-eunbin/Documents/GitHub/csharp-cod/CSharpStudy/CSharpStudy/bin/Debug/net5.0/CSharpStudy.runtimeconfig.dev.json
+/Users/hong-eunbin/Documents/GitHub/csharp-cod/CSharpStudy/CSharpStudy/bin/Debug/net5.0/CSharpStudy.dll
+/Users/hong-eunbin/Documents/GitHub/csharp-cod/CSharpStudy/CSharpStudy/bin/Debug/net5.0/ref/CSharpStudy.dll
+/Users/hong-eunbin/Documents/GitHub/csharp-cod/CSharpStudy/CSharpStudy/bin/Debug/net5.0/CSharpStudy.pdb
+/Users/hong-eunbin/Documents/GitHub/csharp-cod/CSharpStudy/CSharpStudy/obj/Debug/net5.0/CSharpStudy.csprojAssemblyReference.cache
+/Users/hong-eunbin/Documents/GitHub/csharp-cod/CSharpStudy/CSharpStudy/obj/Debug/net5.0/CSharpStudy.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hong-eunbin/Documents/GitHub/csharp-cod/CSharpStudy/CSharpStudy/obj/Debug/net5.0/CSharpStudy.AssemblyInfoInputs.cache
+/Users/hong-eunbin/Documents/GitHub/csharp-cod/CSharpStudy/CSharpStudy/obj/Debug/net5.0/CSharpStudy.AssemblyInfo.cs
+/Users/hong-eunbin/Documents/GitHub/csharp-cod/CSharpStudy/CSharpStudy/obj/Debug/net5.0/CSharpStudy.csproj.CoreCompileInputs.cache
+/Users/hong-eunbin/Documents/GitHub/csharp-cod/CSharpStudy/CSharpStudy/obj/Debug/net5.0/CSharpStudy.dll
+/Users/hong-eunbin/Documents/GitHub/csharp-cod/CSharpStudy/CSharpStudy/obj/Debug/net5.0/ref/CSharpStudy.dll
+/Users/hong-eunbin/Documents/GitHub/csharp-cod/CSharpStudy/CSharpStudy/obj/Debug/net5.0/CSharpStudy.pdb
+/Users/hong-eunbin/Documents/GitHub/csharp-cod/CSharpStudy/CSharpStudy/obj/Debug/net5.0/CSharpStudy.genruntimeconfig.cache
