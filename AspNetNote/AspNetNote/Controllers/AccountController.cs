@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using AspNetNote.DataContext;
 using AspNetNote.Models;
 using AspNetNote.ViewModel;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -52,6 +53,8 @@ namespace AspNetNote.Controllers
                     if(user != null)
                     {
                         //로그인에 성공했을 때
+                        //HttpContext.Session.SetInt32(key, value);
+                        HttpContext.Session.SetInt32("USER_LOGIN_KEY", user.UserNo);
                         return RedirectToAction("LoginSuccess", "Home");
                      }
                     //로그인에 실패했을 떄
@@ -61,6 +64,13 @@ namespace AspNetNote.Controllers
                 }
             }
             return View(model);
+        }
+
+        public IActionResult Logout()
+        {
+            HttpContext.Session.Remove("USER_LOGIN_KEY");
+            //HttpContext.Session.Clear();
+            return RedirectToAction("index", "Home");
         }
 
         [HttpPost]
