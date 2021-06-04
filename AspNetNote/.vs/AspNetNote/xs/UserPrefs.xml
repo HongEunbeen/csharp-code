@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{4D4B7E8F-EBC4-42DD-B13D-4F67E7B1AB39}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AspNetNote/wwwroot/css/site.css">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AspNetNote/Views/Shared/_Layout.cshtml">
     <Files>
       <File FileName="AspNetNote/DataContext/AspNetNoteDbContext.cs" Line="20" Column="10" IsPinned="True" />
       <File FileName="AspNetNote/Views/Account/Login.cshtml" Line="19" Column="8" IsPinned="True" />
@@ -20,7 +20,6 @@
       <File FileName="AspNetNote/Views/Note/Index.cshtml" Line="16" Column="14" />
       <File FileName="AspNetNote/Views/Note/Add.cshtml" Line="1" Column="1" />
       <File FileName="AspNetNote/Views/Note/Edit.cshtml" Line="1" Column="1" />
-      <File FileName="AspNetNote/wwwroot/css/site.css" Line="64" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -32,12 +31,12 @@
               <Node name="ViewModel" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Note" expanded="True" />
-                <Node name="Shared" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
               </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True">
-                  <Node name="site.css" selected="True" />
-                </Node>
+                <Node name="css" expanded="True" />
               </Node>
             </Node>
           </Node>
