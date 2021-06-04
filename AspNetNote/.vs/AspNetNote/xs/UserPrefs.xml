@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{4D4B7E8F-EBC4-42DD-B13D-4F67E7B1AB39}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="AspNetNote/Views/_ViewStart.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="AspNetNote/wwwroot/css/site.css">
     <Files>
       <File FileName="AspNetNote/DataContext/AspNetNoteDbContext.cs" Line="20" Column="10" IsPinned="True" />
       <File FileName="AspNetNote/Views/Account/Login.cshtml" Line="19" Column="8" IsPinned="True" />
@@ -8,14 +8,19 @@
       <File FileName="AspNetNote/Models/ErrorViewModel.cs" />
       <File FileName="AspNetNote/Controllers/AccountController.cs" Line="73" Column="43" />
       <File FileName="AspNetNote/Views/Account/Register.cshtml" Line="1" Column="1" />
-      <File FileName="AspNetNote/Views/Shared/_Layout.cshtml" />
+      <File FileName="AspNetNote/Views/Shared/_Layout.cshtml" Line="26" Column="30" />
       <File FileName="AspNetNote/Program.cs" Line="12" Column="15" />
       <File FileName="AspNetNote/Controllers/HomeController.cs" Line="39" Column="27" />
       <File FileName="AspNetNote/Views/Home/LoginSuccess.cshtml" Line="6" Column="12" />
       <File FileName="AspNetNote/ViewModel/LoginViewModel.cs" Line="11" Column="1" />
       <File FileName="AspNetNote/Startup.cs" Line="52" Column="34" />
       <File FileName="AspNetNote/Views/_ViewImports.cshtml" Line="1" Column="1" />
-      <File FileName="AspNetNote/Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="AspNetNote/Views/_ViewStart.cshtml" Line="2" Column="8" />
+      <File FileName="AspNetNote/Controllers/NoteController.cs" Line="25" Column="35" />
+      <File FileName="AspNetNote/Views/Note/Index.cshtml" Line="16" Column="14" />
+      <File FileName="AspNetNote/Views/Note/Add.cshtml" Line="1" Column="1" />
+      <File FileName="AspNetNote/Views/Note/Edit.cshtml" Line="1" Column="1" />
+      <File FileName="AspNetNote/wwwroot/css/site.css" Line="64" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,11 +31,14 @@
               <Node name="Models" expanded="True" />
               <Node name="ViewModel" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Account" expanded="True" />
-                <Node name="Home" expanded="True" />
-                <Node name="_ViewStart.cshtml" selected="True" />
+                <Node name="Note" expanded="True" />
+                <Node name="Shared" expanded="True" />
               </Node>
-              <Node name="wwwroot" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True">
+                  <Node name="site.css" selected="True" />
+                </Node>
+              </Node>
             </Node>
           </Node>
         </State>

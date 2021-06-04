@@ -12,5 +12,6 @@
     <Folder Include="DataContext\" />
     <Folder Include="Views\Account\" />
     <Folder Include="ViewModel\" />
+    <Folder Include="Views\Note\" />
   </ItemGroup>
 </Project>
